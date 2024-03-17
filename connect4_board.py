@@ -18,6 +18,7 @@ PLAYER_2_PIECE = 2
 
 WINDOW_LENGTH = 4
 
+
 def create_board():
 	board = np.zeros((ROW_COUNT,COLUMN_COUNT))
 	return board
@@ -113,6 +114,7 @@ def score_position(board, piece):
 			score += evaluate_window(window, piece)
 
 	return score
+
 """
 def draw_board(board):
 	for c in range(COLUMN_COUNT):
