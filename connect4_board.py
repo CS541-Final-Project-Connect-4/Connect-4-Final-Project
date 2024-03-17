@@ -2,6 +2,7 @@ import numpy as np
 import pygame
 import sys
 import math
+import random
 
 BLUE = (0,0,255)
 BLACK = (0,0,0)
